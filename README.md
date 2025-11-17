@@ -1,2 +1,7 @@
-## More Python: exploring Python concepts specifically about type safety and asynchronous programming
+## More Python concepts
+
+### Concepts covered in this repo:
+- Variable Annotations
+- Async
+- Async Comprehension
 
