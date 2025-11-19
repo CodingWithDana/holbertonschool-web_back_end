@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Module that defines and annotates the variables 
+Module that defines and annotates the variables
 with the specified values
 """
 a: int = 1
