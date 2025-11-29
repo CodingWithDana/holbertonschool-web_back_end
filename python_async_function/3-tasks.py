@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Module that provides a function (regular function) to take an int and 
+Module that provides a function (regular function) to take an int and
 return a asyncio.Task
 """
 
