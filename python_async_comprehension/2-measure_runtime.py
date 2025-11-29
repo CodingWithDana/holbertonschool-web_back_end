@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Module that provides a coroutine to execute async_comprehension function 
+Module that provides a coroutine to execute async_comprehension function
 four times in parallel using asyncio.gather, measure the total runtime
 and return the total runtime
 """
