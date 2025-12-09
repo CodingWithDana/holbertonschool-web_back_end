@@ -42,13 +42,13 @@ class Server:
         """
         self.__dataset = None
 
-    def dataset(self) -> List[List]:  
+    def dataset(self) -> List[List]:
         """
         Load and cache the dataset from the CSV file.
-        
+
         Reads the CSV file specified by DATA_FILE, caches the dataset
         (excluding the header row), and returns it.
-        
+
         Returns:
         List[List]: The dataset loaded from the CSV file as a list of rows,
                     where each row is a list of strings.
