@@ -97,8 +97,8 @@ class Server:
                 - data (List[List]): The dataset page
                 - next_page (int or None): Number of the next page, None if no
                 next page
-                - prev_page (int or None): Number of the previous page, None if no
-                previous page
+                - prev_page (int or None): Number of the previous page,
+                None if no previous page
                 - total_pages (int): The total number of pages in the dataset
         """
         data = self.get_page(page, page_size)
