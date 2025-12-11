@@ -54,7 +54,8 @@ class Server:
         Returns:
         dict: A dictionary containing:
             'index' (int): The current start index.
-            'next_index' (Optional[int]): The next start index for pagination or None if no more data.
+            'next_index' (Optional[int]): The next start index for pagination
+                or None if no more data.
             'page_size' (int): The number of items returned.
             'data' (List[List]): The list of dataset rows for the current page.
         """
