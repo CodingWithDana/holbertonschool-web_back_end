@@ -25,12 +25,12 @@ if __name__ == "__main__":
     status_count = collection.count_documents({"method": "GET", "path": "/status"})
     
     print(
-    f"{total_collection} logs\n"
-    "Methods:\n"
-    f"\tmethod GET: {get_count}\n"
-    f"\tmethod POST: {post_count}\n"
-    f"\tmethod PUT: {put_count}\n"
-    f"\tmethod PATCH: {patch_count}\n"
-    f"\tmethod DELETE: {delete_count}\n"
-    f"{status_count} status check"
-    )
+        f"{total_collection} logs\n"
+        "Methods:\n"
+        f"\tmethod GET: {get_count}\n"
+        f"\tmethod POST: {post_count}\n"
+        f"\tmethod PUT: {put_count}\n"
+        f"\tmethod PATCH: {patch_count}\n"
+        f"\tmethod DELETE: {delete_count}\n"
+        f"{status_count} status check"
+        )
