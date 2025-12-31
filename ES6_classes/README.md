@@ -6,7 +6,7 @@
     - Metaprogramming and symbols
 
 ### Task Requirements
-#### Task 1
+#### Task 0
 ```
 Implement a class named ClassRoom:
 
@@ -14,14 +14,14 @@ Prototype: export default class ClassRoom
 It should accept one attribute named maxStudentsSize (Number) and assigned to _maxStudentsSize
 ```
 
-#### Task 2
+#### Task 1
 ```
 Import the ClassRoom class from 0-classroom.js.
 
 Implement a function named initializeRooms. It should return an array of 3 ClassRoom objects with the sizes 19, 20, and 34 (in this order).
 ```
 
-#### Task 3
+#### Task 2
 ```
 
 Implement a class named HolbertonCourse:
@@ -35,7 +35,7 @@ Each attribute must be stored in an “underscore” attribute version (ex: name
 Implement a getter and setter for each attribute.
 ```
 
-#### Task 4
+#### Task 3
 ```
 Implement a class named Currency:
 
@@ -47,7 +47,7 @@ Implement a getter and setter for each attribute.
 Implement a method named displayFullCurrency that will return the attributes in the following format name (code).
 ```
 
-#### Task 5
+#### Task 4
 ```
 Import the class Currency from 3-currency.js
 
@@ -62,7 +62,7 @@ Implement a method named displayFullPrice that returns the attributes in the fol
 Implement a static method named convertPrice. It should accept two arguments: amount (Number), conversionRate (Number). The function should return the amount multiplied by the conversion rate.
 ```
 
-#### Task 6
+#### Task 5
 ```
 
 Implement a class named Building:
@@ -75,7 +75,7 @@ Consider this class as an abstract class. And make sure that any class that exte
 If a class that extends from it does not have a evacuationWarningMessage method, throw an error with the message Class extending Building must override evacuationWarningMessage
 ```
 
-#### Task 7
+#### Task 6
 ```
 Import Building from 5-building.js.
 
@@ -89,7 +89,7 @@ Implement a getter for each attribute.
 Override the method named evacuationWarningMessage and return the following string Evacuate slowly the NUMBER_OF_FLOORS floors.
 ```
 
-#### Task 8
+#### Task 7
 ```
 Implement a class named Airport:
 
@@ -100,7 +100,7 @@ Each attribute must be stored in an “underscore” attribute version (ex: name
 The default string description of the class should return the airport code (example below).
 ```
 
-#### Task 9
+#### Task 8
 ```
 Implement a class named HolbertonClass:
 
@@ -112,9 +112,10 @@ When the class is cast into a Number, it should return the size.
 When the class is cast into a String, it should return the location.
 ```
 
-#### Task 10
+#### Task 9
 Fix given code to make it work
-#### Task 11
+
+#### Task 10
 ```
 Implement a class named Car:
 
