@@ -25,6 +25,8 @@ module.exports = {
       'LabeledStatement',
       'WithStatement',
     ],
+    // avoid the invalid config error
+    'prefer-regex-literals': 'off',
   },
   overrides:[
     {
