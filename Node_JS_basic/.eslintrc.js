@@ -1,4 +1,6 @@
 module.exports = {
+  root: true,
+
   env: {
     browser: false,
     es6: true,
@@ -25,7 +27,7 @@ module.exports = {
       'LabeledStatement',
       'WithStatement',
     ],
-    // avoid the invalid config error
+    // turn off the problematic rule so its options don't matter
     'prefer-regex-literals': 'off',
   },
   overrides:[
