@@ -6,7 +6,7 @@ const app = express();
 // define the route for '/'
 app.get('/', (req, res) => {
   //  send 'Hello' as the body
-  res.send('Hello!');
+  res.send('Hello Holberton School!');
 });
 
 // start the server
